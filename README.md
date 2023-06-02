@@ -40,6 +40,6 @@ recipient = "<Enter Email Address of the Recepient configured in SES>"
 The lambda function uses `pandas` - Python Data Analyst Library to convert the `csv` to `html` for sending it via AWS SES. `pandas` libarary is available in-built in AWS Lambda only if `Python 3.9` is selected as runtime.
 After selecting the runtime as `Python 3.9` we have to add `Layers` to support `AWSSDKPandas`.
 
-## Authors
+## Author
 
 - [Ranopriyo Neogy](https://github.com/ranopriyo-neogy)
